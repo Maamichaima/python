@@ -1,5 +1,6 @@
 import sys
 
+
 def check_parity():
     if len(sys.argv) != 2:
         print("AssertionError: more than one argument is provided")
@@ -17,6 +18,6 @@ def check_parity():
     else:
         print("I'm Odd.")
 
+
 if __name__ == "__main__":
     check_parity()
-
